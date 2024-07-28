@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    font-weight: 500;
+    border: none!important;
+}
+body{
+   background: #F4F4F4;
+}
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background: #16BA7D;
+}
+.container h1{
+    font-size: 2.7em;
+    width: 100%;
+    text-align: center;
+    background: #25B2FD;
+    border-radius: 20px;
+    line-height: 130%;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5),
+                0 1px 2px rgba(0, 0, 0, 0.2);
+}
+.container .contant-box{
+    position: relative;
+    width: 400px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px 10px;
+    border-radius: 20px;
+    background: #77BA16;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1),
+               inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.close-box{
+    width: 20px;
+    position: absolute;
+    top: 3px;
+    right: 5px;
+}
+.close-box img{
+    width: 20px;
+    background: white;
+    border-radius: 20px;
+    background: white;
+    padding: 3px;
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.5),
+                      0 0 2px rgba(0, 0, 0, 0.2);
+}
+h3{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 1.6em;
+    background: #FFCC47;
+    border-radius: 20px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5),
+                      0 1px 2px rgba(0, 0, 0, 0.1);
+    font-weight: 600;
+}
+ul{
+    margin-top: 20px;
+}
+ul li{
+    margin-top: 10px;
+    font-size: 1.3em;
+    color: black;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.4),
+                inset 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 2px 30px;
+    list-style: none;
+    border-radius: 20px;
+    background: #FFCC47;
+    
+}
+.other-page{
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.other-page a{
+    font-size: 1.5em;
+    padding: 3px 30px;
+    text-decoration: none;
+    background: #2BB5FF;
+    color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.2),
+               inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
